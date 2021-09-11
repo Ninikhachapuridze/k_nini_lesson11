@@ -39,10 +39,71 @@ li:last-child{
     display: flex;
 }
 .li-block ::after{
-    content: '';
+    content: ' ';
     height: 19px;
     width: 2px;
     color: #FFFFFF;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
+.contact-size{
+    font-size: 42px;
+    color: #FFFFFF;
+}
+.pseudo-div{    
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 96px;    
+}
+.pseudo-a{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/* map saction styles */
+.map-div{
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    margin: o auto;
+    /* padding: 50px 139px; */
+    
+}
+.map{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 139px;
+}
+/* form section styles */
+.form-text{
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    margin: 0 auto;
+}
+.form-contact{
+    font-size: 14px;
+    color: #5863F8;
+}
+.forms-massage{
+    margin-top: 10px;
+    max-width: 378px;
+    width: 100%;
+    height: 115px;
+    font-size: 42px;
+    color: #000000;
+}
+.form-div{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.textarea-descr{
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    resize: none;
+}
+
